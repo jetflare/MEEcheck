@@ -84,7 +84,7 @@ function calculateMassFrac(){
 	line2 += " (" + (massMEG/sumMass*100).toPrecision(4) + "%)"
 	line3 += " (" + (massDEG/sumMass*100).toPrecision(4) + "%)"
 	line4 += " (" + (massTEG/sumMass*100).toPrecision(4) + "%)"
-	lineEnd = "Mass of glycols: " + (sumMass-massH2O).toPrecision(7) + " kg"
+	lineEnd = "<br>Mass of glycols: " + (sumMass-massH2O).toPrecision(7) + " kg"
 	lineEnd += " (" + ((sumMass-massH2O)/sumMass*100).toPrecision(4) + "%)"
 }
 
